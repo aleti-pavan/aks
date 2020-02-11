@@ -59,7 +59,7 @@ $ terraform plan
 
 ```
 # apply 
-terraform apply -auto-approve
+$ terraform apply -auto-approve
 ```
 ![terraform apply](images/terraform-apply.png)
 
@@ -70,3 +70,22 @@ Login into the azure portal and click on resource groups. You should see resourc
 
 
 ![terraform-rg-create.png](images/terraform-rg-create.png)
+
+
+
+
+### Destroy the Infrastructure
+
+destroy the infrastructure with __terraform__.
+
+```
+# Destroy the Infrastructure
+$ terraform destroy -auto-approve
+
+```
+
+![terraform destroy](images/terraform-destroy-rg.png)
+
+__Verify in the Portal__
+
+![azure-portal-rg-delete](images/azure-portal-rg-delete.png)
