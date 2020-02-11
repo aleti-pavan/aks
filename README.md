@@ -37,3 +37,36 @@ When run you will get __appId, password__, please make note of these.
 Now, get on to __Azure Active Directory__ and select __App registrations__ you should see something like below.
 
 ![azure-sp.jpg](images/azure-sp.jpg)
+
+
+### Now Create a Resource Group with Terraform.
+
+```
+# change the folder
+$ cd resourcegroup
+
+# initialise terraform
+$ terraform init
+```
+![terraform plan](images/terraform-init.png)
+
+```
+# plan 
+$ terraform plan
+```
+
+![terraform plan](images/terraform-plan.png)
+
+```
+# apply 
+terraform apply -auto-approve
+```
+![terraform apply](images/terraform-apply.png)
+
+
+### Validate the Resource Group in Azure Portal
+
+Login into the azure portal and click on resource groups. You should see resource group like below.
+
+
+![terraform-rg-create.png](images/terraform-rg-create.png)
