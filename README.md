@@ -4,7 +4,7 @@ This will have steps to create Azure kubernetes cluster
 We'll be using __terraform__ to provision aks cluster in __Azure__.
 
 
-### Steps to Create AKS Cluster.
+## Steps to Create AKS Cluster.
 
 1. Set up Terraform Acess to Azure.
 
@@ -15,7 +15,7 @@ We'll be using __terraform__ to provision aks cluster in __Azure__.
 4. Access AKS cluster.
 
 
-1. #### Set up Terraform Access to Azure.
+### Set up Terraform Access to Azure.
 
 We need an azure ad service principal in order to access terraform, so let's create one. Please install [`az cli`](https://www.youtube.com/watch?v=FdsDtfo8xQY&t=2s) in your laptop.
 
